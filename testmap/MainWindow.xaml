@@ -1,0 +1,20 @@
+﻿<Window x:Class="testmap.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:testmap"
+        mc:Ignorable="d"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <m:Map CredentialsProvider="PDUYKgTOrbK1Xpa6QYMO~7KSPrsWONb5T-r0vBpi23w~AqWnVYrMAs9c71UpfP8HVWstWogtkzFkSknXOnkEQOwHwUaJ7Q3bELvBmKLB-dk7" 
+               Name="map1">
+            <m:Pushpin
+                        Background="Red"
+                         Location= "35.829144304212534, 10.630447925856696">
+            </m:Pushpin>
+
+        </m:Map>
+    </Grid>
+</Window>
